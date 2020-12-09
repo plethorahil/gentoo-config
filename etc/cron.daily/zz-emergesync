@@ -1,0 +1,10 @@
+#!/bin/bash
+echo " " >> /var/log/emergesync.log
+echo "-------------- $(date) ------------------------" >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
+/usr/bin/emerge --sync >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
+/usr/bin/emerge --metadata >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
+echo "--------------------------------------" >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
