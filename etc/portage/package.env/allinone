@@ -1,0 +1,9 @@
+#	compile using ssd instead of tmpfs
+#
+#app-office/libreoffice ssd-tmp
+#www-client/chromium ssd-tmp
+
+# 	some packages failed to compile when using dcc. Disable it for those
+net-fs/samba disable-dcc
+sys-libs/talloc disable-dcc
+sys-libs/ldb disable-dcc

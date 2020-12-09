@@ -1,0 +1,3 @@
+FEATURES="-distcc"
+DISTCC_HOSTS="localhost/8"
+MAKEOPTS="-j8"

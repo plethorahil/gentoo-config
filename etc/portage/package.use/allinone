@@ -1,0 +1,28 @@
+app-office/libreoffice java
+x11-misc/dmenu savedconfig
+net-wireless/iwd standalone
+sys-boot/grub mount
+app-admin/sysklogd logrotate
+app-crypt/pinentry gnome-keyring
+media-gfx/gimp webp
+xfce-extra/tumbler -pdf ffmpeg gstreamer raw
+sys-libs/zlib minizip
+media-video/vlc gstreamer
+sys-kernel/linux-firmware savedconfig
+net-im/telegram-desktop -hunspell -spell
+dev-qt/qtgui wayland
+media-video/ffmpeg opus
+dev-lang/php apache2 bcmath mysql mysqli curl zip xmlreader mhash 
+app-eselect/eselect-php apache2
+x11-misc/polybar curl i3wm network ipc
+sys-fs/squashfs-tools lz4 lzma lzo zstd
+xfce-base/thunar exif libnotify pcre udisks -trash-panel-plugin
+gnome-base/gvfs archive mtp samba
+www-client/w3m imlib
+app-text/evince -spell
+sys-apps/openrc -netifrc sysv-utils
+www-client/firefox -openh264 l10n_gu l10n_hi
+media-libs/libvpx postproc
+x11-base/xorg-server xvfb
+www-client/chromium -suid widevine
+net-libs/nodejs inspector
