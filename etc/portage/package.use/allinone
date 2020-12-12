@@ -20,8 +20,11 @@ xfce-base/thunar exif libnotify pcre udisks -trash-panel-plugin
 gnome-base/gvfs archive mtp samba
 www-client/w3m imlib
 app-text/evince -spell
+
+# use openrc-init instead of sysvinit
 sys-apps/openrc -netifrc sysv-utils
-www-client/firefox -openh264 l10n_gu l10n_hi
+
+www-client/firefox -openh264
 media-libs/libvpx postproc
 x11-base/xorg-server xvfb
 www-client/chromium -suid widevine
