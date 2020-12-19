@@ -1,11 +1,17 @@
+# configure lxqt and lxde
+lxqt-base/lxqt-meta -display-manager -sddm -filemanager -trash minimal lximage powermanagement
+lxqt-base/lxqt-panel colorpicker lm-sensors statusnotifier cpuload -directorymenu -kbindicator -quicklaunch -showdesktop -sysstat
+lxqt-base/lxqt-config -monitor
+lxde-base/lxpanel wifi
+
+sys-apps/lm-sensors contrib
 app-office/libreoffice java
-x11-misc/dmenu savedconfig
 net-wireless/iwd standalone
 sys-boot/grub mount
 app-admin/sysklogd logrotate
 app-crypt/pinentry gnome-keyring
 media-gfx/gimp webp
-xfce-extra/tumbler -pdf ffmpeg gstreamer raw
+xfce-extra/tumbler -pdf ffmpeg gstreamer pdf odf
 sys-libs/zlib minizip
 media-video/vlc gstreamer
 sys-kernel/linux-firmware savedconfig
@@ -16,9 +22,10 @@ dev-lang/php apache2 bcmath mysql mysqli curl zip xmlreader mhash
 app-eselect/eselect-php apache2
 x11-misc/polybar curl i3wm network ipc
 sys-fs/squashfs-tools lz4 lzma lzo zstd
-xfce-base/thunar exif libnotify pcre udisks -trash-panel-plugin
+xfce-base/thunar -trash-panel-plugin
 gnome-base/gvfs archive mtp samba
 www-client/w3m imlib
+app-text/ghostscript-gpl cups
 app-text/evince -spell
 
 # use openrc-init instead of sysvinit

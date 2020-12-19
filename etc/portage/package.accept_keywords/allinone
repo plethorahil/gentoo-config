@@ -5,4 +5,6 @@ media-fonts/fontawesome
 media-gfx/gimp
 x11-terms/kitty
 x11-misc/copyq
+
 www-client/firefox
+dev-libs/nss
