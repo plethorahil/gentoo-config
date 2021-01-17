@@ -19,6 +19,7 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/bash-completion
 app-text/qpdfview
+app-text/tree
 dev-db/mariadb
 dev-db/phpmyadmin
 dev-java/openjdk
@@ -29,13 +30,9 @@ dev-vcs/git
 gnome-base/gvfs
 kde-plasma/breeze-grub
 lxde-base/lxappearance
-lxde-base/lxde-common
-lxde-base/lxde-icon-theme
-lxde-base/lxinput
-lxde-base/lxpanel
 lxde-base/lxrandr
-lxde-base/lxsession
 lxqt-base/lxqt-meta
+mail-client/thunderbird
 media-fonts/dejavu
 media-fonts/fontawesome
 media-fonts/liberation-fonts
@@ -46,8 +43,8 @@ media-fonts/roboto
 media-fonts/terminus-font
 media-gfx/flameshot
 media-gfx/gimp
-media-gfx/lximage-qt
 media-sound/pavucontrol-qt
+media-sound/playerctl
 media-sound/pulseaudio
 media-video/vlc
 net-fs/samba
@@ -65,6 +62,7 @@ sys-apps/exa
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/usbutils
+sys-block/gparted
 sys-boot/grub
 sys-boot/os-prober
 sys-devel/distcc
@@ -84,10 +82,13 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 www-client/chromium
+www-client/falkon
 www-client/firefox
+www-client/qutebrowser
 www-misc/profile-sync-daemon
 www-servers/apache
 x11-apps/mesa-progs
+x11-apps/xdpyinfo
 x11-apps/xmodmap
 x11-apps/xrandr
 x11-base/xorg-server
@@ -111,4 +112,5 @@ x11-wm/i3-gaps
 x11-wm/openbox
 x11-wm/qtile
 xfce-base/thunar
+xfce-extra/thunar-volman
 xfce-extra/tumbler

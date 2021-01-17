@@ -1,10 +1,13 @@
-# configure lxqt and lxde
+# configure lxqt
 lxqt-base/lxqt-meta -display-manager -sddm -filemanager -trash minimal lximage powermanagement
 lxqt-base/lxqt-panel colorpicker lm-sensors statusnotifier cpuload -directorymenu -kbindicator -quicklaunch -showdesktop -sysstat
 lxqt-base/lxqt-config -monitor
-lxde-base/lxpanel wifi
 
 sys-apps/lm-sensors contrib
+
+#do not force me to use gnome polkit I will go for lxqt polkit
+sys-auth/polkit -gtk
+
 app-office/libreoffice java
 net-wireless/iwd standalone
 sys-boot/grub mount
@@ -32,7 +35,14 @@ app-text/evince -spell
 sys-apps/openrc -netifrc sysv-utils
 
 www-client/firefox -openh264
+mail-client/thunderbird -openh264
 media-libs/libvpx postproc
 x11-base/xorg-server xvfb
 www-client/chromium -suid widevine
 net-libs/nodejs inspector
+
+# for qutebrowser
+dev-python/PyQt5 sql declarative webchannel
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+dev-qt/qtmultimedia widgets

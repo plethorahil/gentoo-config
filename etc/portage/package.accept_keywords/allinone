@@ -2,9 +2,12 @@ net-im/telegram-desktop
 media-libs/tg_owt
 
 media-fonts/fontawesome
-media-gfx/gimp
 x11-terms/kitty
+media-gfx/gimp
 x11-misc/copyq
 
 www-client/firefox
 dev-libs/nss
+
+www-client/qutebrowser
+dev-python/pypeg2
