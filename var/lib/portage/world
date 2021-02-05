@@ -81,9 +81,9 @@ sys-process/cronie
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-www-client/chromium
 www-client/falkon
 www-client/firefox
+www-client/librewolf::librewolf
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 www-servers/apache

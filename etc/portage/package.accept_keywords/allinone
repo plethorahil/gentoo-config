@@ -1,7 +1,6 @@
 net-im/telegram-desktop
 media-libs/tg_owt
 
-media-fonts/fontawesome
 x11-terms/kitty
 media-gfx/gimp
 x11-misc/copyq
@@ -11,3 +10,5 @@ dev-libs/nss
 
 www-client/qutebrowser
 dev-python/pypeg2
+
+www-client/librewolf::librewolf

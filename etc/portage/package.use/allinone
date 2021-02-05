@@ -35,6 +35,7 @@ app-text/evince -spell
 sys-apps/openrc -netifrc sysv-utils
 
 www-client/firefox -openh264
+www-client/librewolf -openh264
 mail-client/thunderbird -openh264
 media-libs/libvpx postproc
 x11-base/xorg-server xvfb
