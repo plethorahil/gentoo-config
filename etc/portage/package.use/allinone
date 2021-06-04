@@ -10,7 +10,7 @@ sys-process/htop lm-sensors
 sys-auth/polkit -gtk
 
 app-office/libreoffice java
-net-wireless/iwd standalone
+net-wireless/iwd standalone -crda -monitor
 sys-boot/grub mount
 app-admin/sysklogd logrotate
 app-crypt/pinentry gnome-keyring
@@ -37,7 +37,6 @@ dev-libs/libdbusmenu gtk3
 sys-apps/openrc -netifrc sysv-utils
 
 www-client/firefox -openh264
-www-client/librewolf -openh264
 mail-client/thunderbird -openh264
 media-libs/libvpx postproc
 x11-base/xorg-server xvfb
