@@ -8,18 +8,23 @@ app-arch/lz4
 app-arch/lzip
 app-arch/lzop
 app-arch/xarchiver
+app-editors/gvim
 app-editors/vim
+app-editors/vscode
 app-eselect/eselect-repository
+app-misc/cmatrix
 app-misc/neofetch
 app-misc/ranger
 app-office/libreoffice
 app-portage/cpuid2cpuflags
+app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/bash-completion
 app-text/qpdfview
 app-text/tree
+app-text/xournalpp
 dev-db/mariadb
 dev-db/phpmyadmin
 dev-java/openjdk
@@ -27,6 +32,7 @@ dev-lang/php
 dev-lang/rust
 dev-util/geany
 dev-vcs/git
+games-puzzle/gnome2048
 gnome-base/gvfs
 kde-plasma/breeze-grub
 lxde-base/lxappearance
@@ -51,6 +57,7 @@ net-fs/samba
 net-fs/sshfs
 net-ftp/filezilla
 net-im/telegram-desktop
+net-im/whatsapp-desktop-bin
 net-libs/nodejs
 net-misc/dhcpcd
 net-misc/ntp
@@ -73,6 +80,7 @@ sys-fs/lvm2
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
 sys-kernel/dracut
+sys-kernel/gentoo-kernel-bin
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/acpi
@@ -83,7 +91,6 @@ sys-process/iotop
 sys-process/lsof
 www-client/falkon
 www-client/firefox
-www-client/librewolf::librewolf
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 www-servers/apache
@@ -91,6 +98,7 @@ x11-apps/mesa-progs
 x11-apps/xdpyinfo
 x11-apps/xmodmap
 x11-apps/xrandr
+x11-apps/xsetroot
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 x11-misc/copyq
@@ -103,10 +111,12 @@ x11-misc/qt5ct
 x11-misc/read-edid
 x11-misc/rofi
 x11-terms/kitty
+x11-terms/xterm
 x11-themes/arc-theme
 x11-themes/numix-icon-theme
 x11-wm/awesome
 x11-wm/bspwm
+x11-wm/dwm
 x11-wm/herbstluftwm
 x11-wm/i3-gaps
 x11-wm/openbox

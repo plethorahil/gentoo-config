@@ -66,6 +66,7 @@ GRUB_DISABLE_RECOVERY=true
 # Besides the visual affect of no sub menu, this makes navigation of the
 # menu easier for a user who can't see the screen.
 GRUB_DISABLE_SUBMENU=y
+GRUB_DISABLE_OS_PROBER=false
 
 # Uncomment to play a tone when the main menu is displayed.
 # This is useful, for example, to allow users who can't see the screen

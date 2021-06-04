@@ -1,3 +1,4 @@
 x11-drivers/nvidia-drivers NVIDIA-r2
-sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 sys-firmware/intel-microcode intel-ucode
+app-editors/vscode Microsoft-vscode

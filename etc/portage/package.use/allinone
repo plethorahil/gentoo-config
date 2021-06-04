@@ -4,6 +4,7 @@ lxqt-base/lxqt-panel colorpicker lm-sensors statusnotifier cpuload -directorymen
 lxqt-base/lxqt-config -monitor
 
 sys-apps/lm-sensors contrib
+sys-process/htop lm-sensors
 
 #do not force me to use gnome polkit I will go for lxqt polkit
 sys-auth/polkit -gtk
@@ -30,6 +31,7 @@ gnome-base/gvfs archive mtp samba
 www-client/w3m imlib
 app-text/ghostscript-gpl cups
 app-text/evince -spell
+dev-libs/libdbusmenu gtk3
 
 # use openrc-init instead of sysvinit
 sys-apps/openrc -netifrc sysv-utils
@@ -47,3 +49,11 @@ dev-python/PyQt5 sql declarative webchannel
 dev-qt/qtwebengine widgets
 dev-qt/qtwebchannel qml
 dev-qt/qtmultimedia widgets
+
+
+#lua stuff
+x11-wm/awesome -lua_single_target_lua5-1 lua_single_target_lua5-3
+media-video/vlc -lua_single_target_lua5-1 lua_single_target_lua5-2
+
+# dwm stuff
+x11-wm/dwm savedconfig

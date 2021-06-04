@@ -1,14 +1,17 @@
-net-im/telegram-desktop
-media-libs/tg_owt
-
+games-puzzle/gnome2048
+dev-libs/libgnome-games-support
+net-im/whatsapp-desktop-bin
 x11-terms/kitty
-media-gfx/gimp
+x11-terms/kitty-terminfo
+app-editors/vscode
+sys-kernel/gentoo-sources
+
 x11-misc/copyq
 
 www-client/firefox
 dev-libs/nss
 
 www-client/qutebrowser
-dev-python/pypeg2
 
-www-client/librewolf::librewolf
+lxde-base/lxrandr
+lxde-base/lxappearance

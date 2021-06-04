@@ -4,6 +4,10 @@ echo "-------------- $(date) ------------------------" >> /var/log/emergesync.lo
 echo " " >> /var/log/emergesync.log
 /usr/bin/emerge --sync >> /var/log/emergesync.log
 echo " " >> /var/log/emergesync.log
+/bin/cp -av /var/cache/eix/portage.eix /var/cache/eix/previous.eix >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
+/usr/bin/eix-update >> /var/log/emergesync.log
+echo " " >> /var/log/emergesync.log
 /usr/bin/emerge --metadata >> /var/log/emergesync.log
 echo " " >> /var/log/emergesync.log
 echo "--------------------------------------" >> /var/log/emergesync.log

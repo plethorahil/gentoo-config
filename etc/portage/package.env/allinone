@@ -7,3 +7,6 @@
 net-fs/samba disable-dcc
 sys-libs/talloc disable-dcc
 sys-libs/ldb disable-dcc
+mail-client/thunderbird lessjobs
+www-client/firefox lessjobs
+sys-devel/gcc lessjobs
